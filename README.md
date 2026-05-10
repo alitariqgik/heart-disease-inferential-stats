@@ -5,6 +5,7 @@ Heart Disease Prediction
 > Ghulam Ishaq Khan Institute of Engineering and Technology | Faculty of Computer Sciences and Engineering
 
 Table of Contents
+
 Project Overview
 Repository Structure
 Dataset
@@ -21,6 +22,7 @@ Project Overview
 
 This project applies inferential statistics and probabilistic graphical modeling to the problem of heart disease prediction. Two complementary approaches are implemented and compared:
 Approach	Description
+
 Naive Bayes (From Scratch)	Mixed Naive Bayes with Gaussian likelihoods for numerical features and Laplace-smoothed categorical likelihoods for discrete features
 Naive Bayes (sklearn)	Baseline GaussianNB from scikit-learn applied to all features
 The project also includes a fully specified 4-layer Bayesian Network  that models the causal progression from patient demographics → physiological risk factors → clinical symptoms → final diagnosis.
